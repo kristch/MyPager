@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
 	        myPager = (ChildViewPager) findViewById(R.id.myvp);
 	        name =(EditText) findViewById(R.id.name);
 	        phone= (EditText) findViewById(R.id.phone);
-
+	        System.out.println(name+"");
 	        InitViewPager();
 	        myPager.setAdapter(new MyPagerAdapter(this, listViews));
 	    }
